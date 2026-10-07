@@ -1,0 +1,40 @@
+{
+  "pack_sha256": "1693393e2a6ba60c4b4f37f292703374289574e6c9ae5d1ae32f2b985466ef30",
+  "inference_executed": false,
+  "tokenizer_class": "Qwen2TokenizerFast",
+  "tokenizer_assets": {
+    "tokenizer.json": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+    "tokenizer_config.json": "5186f0defcd7f232382c7f0aebcd2252d073bb921ab240e407b7ae8745d2b29b",
+    "chat_template.jinja": "e84f32a23fdda27689f868aa4a1a5621f41133e51a48d7f3efcbea2839574259"
+  },
+  "cases": [
+    {
+      "id": "A-ledger",
+      "rows": 184,
+      "facts": 1472,
+      "input_tokens": 8192,
+      "gold_tokens": 8235
+    },
+    {
+      "id": "B-ledger",
+      "rows": 183,
+      "facts": 1464,
+      "input_tokens": 8192,
+      "gold_tokens": 8224
+    },
+    {
+      "id": "C-ledger",
+      "rows": 183,
+      "facts": 1464,
+      "input_tokens": 8192,
+      "gold_tokens": 8193
+    },
+    {
+      "id": "D-ledger",
+      "rows": 182,
+      "facts": 1456,
+      "input_tokens": 8192,
+      "gold_tokens": 8200
+    }
+  ]
+}

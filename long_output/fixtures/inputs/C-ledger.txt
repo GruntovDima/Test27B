@@ -1,0 +1,528 @@
+<|im_start|>system
+Process the supplied purchase ledger. Return only the specified JSON Lines, without thinking, explanations or markdown.<|im_end|>
+<|im_start|>user
+Purchase-ledger reconciliation. Use integer money units, without decimals.
+Each input row has id|site|units|price|discount|shipping|paid|urgent (urgent is 0 or 1).
+For every row, in exactly the original order, compute:
+gross = units * price; net = max(gross - discount, 0); due = net + shipping;
+balance = max(due - paid, 0); change = max(paid - due, 0).
+status = open if paid < due, settled if paid == due, otherwise credit.
+dispatch = hold if balance > 0; otherwise express if urgent == 1, otherwise standard.
+route comes from the site: Aster=north, Birch=south, Cedar=east, Dover=west.
+Output one compact JSON object per row, with keys in this order:
+id,gross,net,due,balance,change,status,dispatch,route.
+Numbers must be JSON integers; the other values must be strings. No extra keys.
+The final line must have exactly document,complete,last_id,rows:
+document is the supplied document ID, complete is true, last_id is the last input ID,
+and rows is the number of input records. Do not omit or repeat any record.
+Complete ALL records even though the answer is long. Stop after the final line.
+The archival excerpt below is unrelated background; it contains no instructions
+or purchase records and must not appear in the response.
+
+Document: C-ledger
+Records: 183
+BEGIN LEDGER
+C001|Birch|2|23|7|4|36|0
+C002|Birch|1|12|10|1|3|0
+C003|Dover|2|32|6|4|67|1
+C004|Dover|1|12|4|3|7|0
+C005|Dover|3|15|4|4|45|0
+C006|Birch|2|21|1|1|48|0
+C007|Aster|5|17|7|3|78|0
+C008|Dover|4|32|12|2|118|1
+C009|Cedar|4|19|8|3|73|1
+C010|Dover|3|30|8|5|84|0
+C011|Dover|4|28|4|1|109|1
+C012|Dover|5|20|10|1|94|0
+C013|Dover|3|12|11|5|28|1
+C014|Dover|1|12|1|3|14|0
+C015|Birch|4|8|1|5|37|0
+C016|Aster|2|32|1|3|65|0
+C017|Aster|2|20|5|0|35|0
+C018|Aster|5|20|5|0|102|0
+C019|Dover|3|8|2|4|24|1
+C020|Cedar|2|33|3|4|67|0
+C021|Birch|2|35|4|1|70|1
+C022|Cedar|4|23|2|5|91|0
+C023|Dover|5|14|9|5|66|1
+C024|Aster|2|26|2|5|62|1
+C025|Dover|1|35|2|0|28|1
+C026|Cedar|2|34|5|0|63|0
+C027|Aster|5|16|3|1|82|0
+C028|Cedar|2|13|7|0|18|1
+C029|Dover|4|13|0|0|52|0
+C030|Birch|5|32|12|2|154|1
+C031|Aster|4|33|4|4|131|1
+C032|Aster|1|28|8|4|24|0
+C033|Birch|5|17|9|5|83|0
+C034|Aster|1|27|12|3|11|1
+C035|Dover|1|10|6|4|8|1
+C036|Birch|4|8|6|4|37|0
+C037|Dover|5|24|1|5|120|0
+C038|Dover|5|9|12|5|38|1
+C039|Aster|3|21|7|3|62|0
+C040|Birch|5|17|4|5|79|0
+C041|Aster|2|16|8|5|29|0
+C042|Dover|3|22|7|5|65|1
+C043|Cedar|3|16|6|0|36|1
+C044|Birch|4|23|5|0|87|0
+C045|Cedar|5|15|10|3|69|0
+C046|Birch|1|22|1|4|23|1
+C047|Dover|5|7|2|3|36|1
+C048|Birch|1|13|11|5|12|0
+C049|Aster|1|32|12|4|18|0
+C050|Birch|1|17|8|1|10|1
+C051|Birch|4|33|11|2|126|1
+C052|Dover|5|20|7|1|88|1
+C053|Birch|3|27|12|2|71|0
+C054|Dover|2|28|5|2|56|0
+C055|Birch|2|10|12|5|10|1
+C056|Aster|5|29|11|4|138|0
+C057|Cedar|3|8|8|2|23|0
+C058|Dover|5|18|11|4|77|1
+C059|Cedar|2|25|1|3|52|1
+C060|Aster|2|10|11|1|15|0
+C061|Cedar|5|32|8|3|151|0
+C062|Aster|4|25|8|5|97|1
+C063|Aster|5|16|11|4|78|0
+C064|Birch|4|27|6|2|103|0
+C065|Cedar|4|20|3|2|79|0
+C066|Dover|1|27|4|5|29|0
+C067|Aster|3|10|7|0|18|1
+C068|Aster|4|17|6|3|65|1
+C069|Cedar|1|24|3|0|27|0
+C070|Aster|2|20|9|3|30|0
+C071|Aster|4|15|3|1|58|0
+C072|Birch|2|29|7|5|62|0
+C073|Aster|3|30|8|2|81|0
+C074|Cedar|2|9|3|4|19|0
+C075|Cedar|5|11|12|3|50|0
+C076|Cedar|1|10|3|5|8|1
+C077|Aster|5|8|0|4|44|0
+C078|Dover|1|20|9|4|18|1
+C079|Cedar|5|30|10|4|141|0
+C080|Cedar|1|21|6|4|19|1
+C081|Dover|2|24|2|4|53|1
+C082|Aster|4|16|3|5|64|0
+C083|Aster|2|28|10|2|48|1
+C084|Cedar|3|20|2|0|60|0
+C085|Aster|5|12|6|3|52|0
+C086|Aster|1|11|6|1|6|1
+C087|Dover|3|26|4|3|80|0
+C088|Dover|4|17|5|2|63|0
+C089|Cedar|3|10|10|4|24|0
+C090|Dover|2|8|5|0|15|1
+C091|Dover|5|13|6|4|59|0
+C092|Dover|4|25|2|4|102|1
+C093|Aster|1|7|9|3|7|1
+C094|Dover|4|33|8|3|126|1
+C095|Cedar|1|17|7|0|10|0
+C096|Dover|3|32|8|0|90|1
+C097|Dover|1|10|10|3|0|1
+C098|Birch|3|15|7|0|38|1
+C099|Birch|5|18|11|2|86|0
+C100|Cedar|3|8|9|1|10|0
+C101|Cedar|3|30|5|1|86|0
+C102|Cedar|4|8|6|5|33|0
+C103|Birch|2|18|6|1|29|1
+C104|Dover|2|19|6|3|35|0
+C105|Cedar|5|7|3|5|41|0
+C106|Cedar|3|35|12|4|93|0
+C107|Birch|2|34|11|1|58|1
+C108|Birch|1|24|8|1|20|0
+C109|Aster|4|31|9|0|108|0
+C110|Aster|5|15|5|2|72|0
+C111|Dover|5|23|12|5|113|0
+C112|Cedar|4|20|1|5|81|0
+C113|Dover|2|13|9|0|17|0
+C114|Dover|5|28|1|3|146|0
+C115|Birch|3|26|8|1|69|0
+C116|Aster|1|20|6|2|16|0
+C117|Birch|5|18|5|2|88|1
+C118|Cedar|2|18|9|5|26|1
+C119|Dover|5|13|9|4|60|0
+C120|Aster|3|18|6|4|55|1
+C121|Birch|1|25|11|5|15|0
+C122|Dover|3|24|4|2|70|1
+C123|Dover|2|17|3|0|36|1
+C124|Birch|2|33|1|4|66|1
+C125|Aster|2|16|12|3|23|0
+C126|Cedar|2|8|12|3|14|1
+C127|Aster|5|16|6|5|77|0
+C128|Aster|4|24|2|1|95|0
+C129|Aster|1|19|4|0|18|0
+C130|Aster|5|16|10|2|66|0
+C131|Birch|2|11|0|4|26|0
+C132|Dover|4|10|7|5|41|1
+C133|Aster|4|16|10|1|51|1
+C134|Birch|2|32|9|0|55|1
+C135|Dover|1|7|11|2|9|1
+C136|Dover|4|19|2|2|71|0
+C137|Cedar|3|35|12|1|94|1
+C138|Aster|1|35|2|4|38|0
+C139|Aster|3|23|3|0|65|1
+C140|Birch|1|21|1|3|23|1
+C141|Dover|5|24|2|2|121|1
+C142|Birch|3|12|3|1|31|0
+C143|Aster|1|16|1|5|20|0
+C144|Aster|2|9|0|5|29|1
+C145|Cedar|2|20|8|3|33|0
+C146|Cedar|4|34|10|3|129|1
+C147|Cedar|5|25|7|4|124|1
+C148|Cedar|5|8|0|3|36|0
+C149|Cedar|4|14|8|0|48|1
+C150|Cedar|3|28|8|2|79|1
+C151|Dover|4|28|1|3|113|1
+C152|Cedar|3|32|11|4|89|1
+C153|Dover|1|15|0|2|21|0
+C154|Dover|4|32|1|4|129|0
+C155|Aster|1|20|10|0|10|0
+C156|Aster|2|28|10|3|53|0
+C157|Dover|1|29|4|1|19|0
+C158|Aster|2|16|9|3|26|0
+C159|Cedar|5|20|8|3|97|0
+C160|Birch|4|7|0|3|28|0
+C161|Birch|3|9|7|4|24|1
+C162|Birch|1|8|4|2|9|1
+C163|Cedar|4|33|2|3|127|1
+C164|Aster|5|16|4|0|76|0
+C165|Aster|1|24|4|1|24|0
+C166|Aster|4|32|7|1|118|0
+C167|Aster|2|23|1|5|50|1
+C168|Dover|2|19|10|4|39|0
+C169|Aster|5|29|4|2|136|1
+C170|Birch|3|24|5|1|68|0
+C171|Aster|2|14|9|3|27|0
+C172|Aster|3|14|0|4|41|0
+C173|Aster|2|18|1|5|40|1
+C174|Birch|1|18|1|3|24|1
+C175|Dover|3|13|8|2|29|0
+C176|Dover|4|22|4|1|85|0
+C177|Cedar|4|30|12|2|113|1
+C178|Cedar|2|28|7|2|49|0
+C179|Dover|2|9|5|4|17|1
+C180|Dover|3|24|11|2|69|1
+C181|Cedar|5|30|4|0|143|0
+C182|Dover|3|13|12|5|32|1
+C183|Cedar|3|20|7|3|57|1
+END LEDGER
+BEGIN ARCHIVE
+The Project Gutenberg eBook of Alice's Adventures in Wonderland
+    
+This eBook is for the use of anyone anywhere in the United States and
+most other parts of the world at no cost and with almost no restrictions
+whatsoever. You may copy it, give it away or re-use it under the terms
+of the Project Gutenberg License included with this eBook or online
+at www.gutenberg.org. If you are not located in the United States,
+you will have to check the laws of the country where you are located
+before using this eBook.
+
+Title: Alice's Adventures in Wonderland
+
+Author: Lewis Carroll
+
+
+        
+Release date: June 27, 2008 [eBook #11]
+                Most recently updated: June 26, 2025
+
+Language: English
+
+Other information and formats: www.gutenberg.org/ebooks/11
+
+Credits: Arthur DiBianca and David Widger
+
+
+*** START OF THE PROJECT GUTENBERG EBOOK ALICE'S ADVENTURES IN WONDERLAND ***
+
+[Illustration]
+
+
+
+
+Alice’s Adventures in Wonderland
+
+by Lewis Carroll
+
+THE MILLENNIUM FULCRUM EDITION 3.0
+
+Contents
+
+ CHAPTER I.     Down the Rabbit-Hole
+ CHAPTER II.    The Pool of Tears
+ CHAPTER III.   A Caucus-Race and a Long Tale
+ CHAPTER IV.    The Rabbit Sends in a Little Bill
+ CHAPTER V.     Advice from a Caterpillar
+ CHAPTER VI.    Pig and Pepper
+ CHAPTER VII.   A Mad Tea-Party
+ CHAPTER VIII.  The Queen’s Croquet-Ground
+ CHAPTER IX.    The Mock Turtle’s Story
+ CHAPTER X.     The Lobster Quadrille
+ CHAPTER XI.    Who Stole the Tarts?
+ CHAPTER XII.   Alice’s Evidence
+
+
+
+
+CHAPTER I.
+Down the Rabbit-Hole
+
+
+Alice was beginning to get very tired of sitting by her sister on the
+bank, and of having nothing to do: once or twice she had peeped into
+the book her sister was reading, but it had no pictures or
+conversations in it, “and what is the use of a book,” thought Alice
+“without pictures or conversations?”
+
+So she was considering in her own mind (as well as she could, for the
+hot day made her feel very sleepy and stupid), whether the pleasure of
+making a daisy-chain would be worth the trouble of getting up and
+picking the daisies, when suddenly a White Rabbit with pink eyes ran
+close by her.
+
+There was nothing so _very_ remarkable in that; nor did Alice think it
+so _very_ much out of the way to hear the Rabbit say to itself, “Oh
+dear! Oh dear! I shall be late!” (when she thought it over afterwards,
+it occurred to her that she ought to have wondered at this, but at the
+time it all seemed quite natural); but when the Rabbit actually _took a
+watch out of its waistcoat-pocket_, and looked at it, and then hurried
+on, Alice started to her feet, for it flashed across her mind that she
+had never before seen a rabbit with either a waistcoat-pocket, or a
+watch to take out of it, and burning with curiosity, she ran across the
+field after it, and fortunately was just in time to see it pop down a
+large rabbit-hole under the hedge.
+
+In another moment down went Alice after it, never once considering how
+in the world she was to get out again.
+
+The rabbit-hole went straight on like a tunnel for some way, and then
+dipped suddenly down, so suddenly that Alice had not a moment to think
+about stopping herself before she found herself falling down a very
+deep well.
+
+Either the well was very deep, or she fell very slowly, for she had
+plenty of time as she went down to look about her and to wonder what
+was going to happen next. First, she tried to look down and make out
+what she was coming to, but it was too dark to see anything; then she
+looked at the sides of the well, and noticed that they were filled with
+cupboards and book-shelves; here and there she saw maps and pictures
+hung upon pegs. She took down a jar from one of the shelves as she
+passed; it was labelled “ORANGE MARMALADE”, but to her great
+disappointment it was empty: she did not like to drop the jar for fear
+of killing somebody underneath, so managed to put it into one of the
+cupboards as she fell past it.
+
+“Well!” thought Alice to herself, “after such a fall as this, I shall
+think nothing of tumbling down stairs! How brave they’ll all think me
+at home! Why, I wouldn’t say anything about it, even if I fell off the
+top of the house!” (Which was very likely true.)
+
+Down, down, down. Would the fall _never_ come to an end? “I wonder how
+many miles I’ve fallen by this time?” she said aloud. “I must be
+getting somewhere near the centre of the earth. Let me see: that would
+be four thousand miles down, I think—” (for, you see, Alice had learnt
+several things of this sort in her lessons in the schoolroom, and
+though this was not a _very_ good opportunity for showing off her
+knowledge, as there was no one to listen to her, still it was good
+practice to say it over) “—yes, that’s about the right distance—but
+then I wonder what Latitude or Longitude I’ve got to?” (Alice had no
+idea what Latitude was, or Longitude either, but thought they were nice
+grand words to say.)
+
+Presently she began again. “I wonder if I shall fall right _through_
+the earth! How funny it’ll seem to come out among the people that walk
+with their heads downward! The Antipathies, I think—” (she was rather
+glad there _was_ no one listening, this time, as it didn’t sound at all
+the right word) “—but I shall have to ask them what the name of the
+country is, you know. Please, Ma’am, is this New Zealand or Australia?”
+(and she tried to curtsey as she spoke—fancy _curtseying_ as you’re
+falling through the air! Do you think you could manage it?) “And what
+an ignorant little girl she’ll think me for asking! No, it’ll never do
+to ask: perhaps I shall see it written up somewhere.”
+
+Down, down, down. There was nothing else to do, so Alice soon began
+talking again. “Dinah’ll miss me very much to-night, I should think!”
+(Dinah was the cat.) “I hope they’ll remember her saucer of milk at
+tea-time. Dinah my dear! I wish you were down here with me! There are
+no mice in the air, I’m afraid, but you might catch a bat, and that’s
+very like a mouse, you know. But do cats eat bats, I wonder?” And here
+Alice began to get rather sleepy, and went on saying to herself, in a
+dreamy sort of way, “Do cats eat bats? Do cats eat bats?” and
+sometimes, “Do bats eat cats?” for, you see, as she couldn’t answer
+either question, it didn’t much matter which way she put it. She felt
+that she was dozing off, and had just begun to dream that she was
+walking hand in hand with Dinah, and saying to her very earnestly,
+“Now, Dinah, tell me the truth: did you ever eat a bat?” when suddenly,
+thump! thump! down she came upon a heap of sticks and dry leaves, and
+the fall was over.
+
+Alice was not a bit hurt, and she jumped up on to her feet in a moment:
+she looked up, but it was all dark overhead; before her was another
+long passage, and the White Rabbit was still in sight, hurrying down
+it. There was not a moment to be lost: away went Alice like the wind,
+and was just in time to hear it say, as it turned a corner, “Oh my ears
+and whiskers, how late it’s getting!” She was close behind it when she
+turned the corner, but the Rabbit was no longer to be seen: she found
+herself in a long, low hall, which was lit up by a row of lamps hanging
+from the roof.
+
+There were doors all round the hall, but they were all locked; and when
+Alice had been all the way down one side and up the other, trying every
+door, she walked sadly down the middle, wondering how she was ever to
+get out again.
+
+Suddenly she came upon a little three-legged table, all made of solid
+glass; there was nothing on it except a tiny golden key, and Alice’s
+first thought was that it might belong to one of the doors of the hall;
+but, alas! either the locks were too large, or the key was too small,
+but at any rate it would not open any of them. However, on the second
+time round, she came upon a low curtain she had not noticed before, and
+behind it was a little door about fifteen inches high: she tried the
+little golden key in the lock, and to her great delight it fitted!
+
+Alice opened the door and found that it led into a small passage, not
+much larger than a rat-hole: she knelt down and looked along the
+passage into the loveliest garden you ever saw. How she longed to get
+out of that dark hall, and wander about among those beds of bright
+flowers and those cool fountains, but she could not even get her head
+through the doorway; “and even if my head would go through,” thought
+poor Alice, “it would be of very little use without my shoulders. Oh,
+how I wish I could shut up like a telescope! I think I could, if I only
+knew how to begin.” For, you see, so many out-of-the-way things had
+happened lately, that Alice had begun to think that very few things
+indeed were really impossible.
+
+There seemed to be no use in waiting by the little door, so she went
+back to the table, half hoping she might find another key on it, or at
+any rate a book of rules for shutting people up like telescopes: this
+time she found a little bottle on it, (“which certainly was not here
+before,” said Alice,) and round the neck of the bottle was a paper
+label, with the words “DRINK ME,” beautifully printed on it in large
+letters.
+
+It was all very well to say “Drink me,” but the wise little Alice was
+not going to do _that_ in a hurry. “No, I’ll look first,” she said,
+“and see whether it’s marked ‘_poison_’ or not”; for she had read
+several nice little histories about children who had got burnt, and
+eaten up by wild beasts and other unpleasant things, all because they
+_would_ not remember the simple rules their friends had taught them:
+such as, that a red-hot poker will burn you if you hold it too long;
+and that if you cut your finger _very_ deeply with a knife, it usually
+bleeds; and she had never forgotten that, if you drink much from a
+bottle marked “poison,” it is almost certain to disagree with you,
+sooner or later.
+
+However, this bottle was _not_ marked “poison,” so Alice ventured to
+taste it, and finding it very nice, (it had, in fact, a sort of mixed
+flavour of cherry-tart, custard, pine-apple, roast turkey, toffee, and
+hot buttered toast,) she very soon finished it off.
+
+*      *      *      *      *      *      *
+
+    *      *      *      *      *      *
+
+*      *      *      *      *      *      *
+
+
+“What a curious feeling!” said Alice; “I must be shutting up like a
+telescope.”
+
+And so it was indeed: she was now only ten inches high, and her face
+brightened up at the thought that she was now the right size for going
+through the little door into that lovely garden. First, however, she
+waited for a few minutes to see if she was going to shrink any further:
+she felt a little nervous about this; “for it might end, you know,”
+said Alice to herself, “in my going out altogether, like a candle. I
+wonder what I should be like then?” And she tried to fancy what the
+flame of a candle is like after the candle is blown out, for she could
+not remember ever having seen such a thing.
+
+After a while, finding that nothing more happened, she decided on going
+into the garden at once; but, alas for poor Alice! when she got to the
+door, she found she had forgotten the little golden key, and when she
+went back to the table for it, she found she could not possibly reach
+it: she could see it quite plainly through the glass, and she tried her
+best to climb up one of the legs of the table, but it was too slippery;
+and when she had tired herself out with trying, the poor little thing
+sat down and cried.
+
+“Come, there’s no use in crying like that!” said Alice to herself,
+rather sharply; “I advise you to leave off this minute!” She generally
+gave herself very good advice, (though she very seldom followed it),
+and sometimes she scolded herself so severely as to bring tears into
+her eyes; and once she remembered trying to box her own ears for having
+cheated herself in a game of croquet she was playing against herself,
+for this curious child was very fond of pretending to be two people.
+“But it’s no use now,” thought poor Alice, “to pretend to be two
+people! Why, there’s hardly enough of me left to make _one_ respectable
+person!”
+
+Soon her eye fell on a little glass box that was lying under the table:
+she opened it, and found in it a very small cake, on which the words
+“EAT ME” were beautifully marked in currants. “Well, I’ll eat it,” said
+Alice, “and if it makes me grow larger, I can reach the key; and if it
+makes me grow smaller, I can creep under the door; so either way I’ll
+get into the garden, and I don’t care which happens!”
+
+She ate a little bit, and said anxiously to herself, “Which way? Which
+way?”, holding her hand on the top of her head to feel which way it was
+growing, and she was quite surprised to find that she remained the same
+size: to be sure, this generally happens when one eats cake, but Alice
+had got so much into the way of expecting nothing but out-of-the-way
+things to happen, that it seemed quite dull and stupid for life to go
+on in the common way.
+
+So she set to work, and very soon finished off the cake.
+
+*      *      *      *      *      *      *
+
+    *      *      *      *      *      *
+
+*      *      *      *      *      *      *
+
+
+
+
+CHAPTER II.
+The Pool of Tears
+
+
+“Curiouser and curiouser!” cried Alice (she was so much surprised, that
+for the moment she quite forgot how to speak good English); “now I’m
+opening out like the largest telescope that ever was! Good-bye, feet!”
+(for when she looked down at her feet, they seemed to be almost out of
+sight, they were getting so far off). “Oh, my poor little feet, I
+wonder who will put on your shoes and stockings for you now, dears? I’m
+sure _I_ shan’t be able! I shall be a great deal too far off to trouble
+myself about you: you must manage the best way you can;—but I must be
+kind to them,” thought Alice, “or perhaps they won’t walk the way I
+want to go! Let me see: I’ll give them a new pair of boots every
+Christmas.”
+
+And she went on planning to herself how she would manage it. “They must
+go by the carrier,” she thought; “and how funny it’ll seem, sending
+presents to one’s own feet! And how odd the directions will look!
+
+     _Alice’s Right Foot, Esq., Hearthrug, near the Fender,_ (_with
+     Alice’s love_).
+
+Oh dear, what nonsense I’m talking!”
+
+Just then her head struck against the roof of the hall: in fact she was
+now more than nine feet high, and she at once took up the little golden
+key and hurried off to the garden door.
+
+Poor Alice! It was as much as she could do, lying down on one side, to
+look through into the garden with one eye; but to get through was more
+hopeless than ever: she sat down and began to cry again.
+
+“You ought to be ashamed of yourself,” said Alice, “a great girl like
+you,” (she might well say this), “to go on crying in this way! Stop
+this moment, I tell you
+END ARCHIVE
+Reconcile the complete ledger above now. Output JSON Lines only.<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+

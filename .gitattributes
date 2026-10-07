@@ -1,2 +1,4 @@
 * text=auto eol=lf
 sources/pg*.txt -text
+long_output/sources/pg*.txt -text
+long_output/fixtures/inputs/*.txt -text

@@ -1,0 +1,50 @@
+{
+  "alice-01": {
+    "document_id": "alice-01",
+    "excerpt_1_code": "ALICE-A-071",
+    "answer_1": "White Rabbit",
+    "answer_2": "pink",
+    "excerpt_2_code": "ALICE-B-492",
+    "answer_3": "Dodo",
+    "answer_4": "Caucus-race",
+    "excerpt_3_code": "ALICE-C-835",
+    "answer_5": "hookah",
+    "answer_6": "Keep your temper"
+  },
+  "oz-02": {
+    "document_id": "oz-02",
+    "excerpt_1_code": "OZ-A-263",
+    "answer_1": "Kansas",
+    "answer_2": "Toto",
+    "excerpt_2_code": "OZ-B-914",
+    "answer_3": "white and blue",
+    "answer_4": "pink",
+    "excerpt_3_code": "OZ-C-506",
+    "answer_5": "tin",
+    "answer_6": "oil-can"
+  },
+  "treasure-03": {
+    "document_id": "treasure-03",
+    "excerpt_1_code": "SEA-A-648",
+    "answer_1": "Admiral Benbow",
+    "answer_2": "sea-chest",
+    "excerpt_2_code": "SEA-B-185",
+    "answer_3": "rum",
+    "answer_4": "golden guinea",
+    "excerpt_3_code": "SEA-C-729",
+    "answer_5": "maid",
+    "answer_6": "library"
+  },
+  "holmes-04": {
+    "document_id": "holmes-04",
+    "excerpt_1_code": "CASE-A-397",
+    "answer_1": "Irene Adler",
+    "answer_2": "Baker Street",
+    "excerpt_2_code": "CASE-B-652",
+    "answer_3": "Jabez Wilson",
+    "answer_4": "autumn",
+    "excerpt_3_code": "CASE-C-048",
+    "answer_5": "amethyst",
+    "answer_6": "King of Bohemia"
+  }
+}

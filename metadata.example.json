@@ -1,0 +1,13 @@
+{
+  "weights_revision_or_hash": "FILL_ME",
+  "tokenizer_revision_or_hash": "FILL_ME",
+  "vllm_revision": "FILL_ME",
+  "vllm_ascend_revision": "FILL_ME",
+  "torch_npu_version": "FILL_ME",
+  "cann_version": "FILL_ME",
+  "device_type": "FILL_ME",
+  "tensor_parallel_size": "FILL_ME",
+  "dtype_and_quantization": "FILL_ME",
+  "prefix_cache_state": "FILL_ME",
+  "server_command_without_credentials": "FILL_ME"
+}

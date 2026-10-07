@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+client-tests.log
+prepared/
+runs/
+score.json
+comparison.json
+metadata.json

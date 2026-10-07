@@ -1,0 +1,49 @@
+{
+  "kind": "real_tokenizer_fixture_validation",
+  "model_inference_executed": false,
+  "main_inference_executed": false,
+  "pack_sha256": "e215953a779c354da392af42751f56145759d3b456fd7a2c3ffa81a8f6961eb8",
+  "tokenizer_revision": "6a9e13bd6fc8f0983b9b99948120bc37f49c13e9",
+  "cases": [
+    {
+      "id": "alice-01",
+      "input_tokens": 8192,
+      "decode_matches_saved_text": true,
+      "retained_answer_evidence": 6,
+      "retained_excerpt_codes": 3,
+      "retained_questions": 6,
+      "generation_prefix_verified": true,
+      "input_sha256": "b541ee8713326a8cd4c0c09c14dd88b6064fb5f39393bc3ee4d894da65317de9"
+    },
+    {
+      "id": "oz-02",
+      "input_tokens": 8192,
+      "decode_matches_saved_text": true,
+      "retained_answer_evidence": 6,
+      "retained_excerpt_codes": 3,
+      "retained_questions": 6,
+      "generation_prefix_verified": true,
+      "input_sha256": "e850f0b462e5c85421d88a9b05942953f5ab0624dd39e1df63409376191880f9"
+    },
+    {
+      "id": "treasure-03",
+      "input_tokens": 8192,
+      "decode_matches_saved_text": true,
+      "retained_answer_evidence": 6,
+      "retained_excerpt_codes": 3,
+      "retained_questions": 6,
+      "generation_prefix_verified": true,
+      "input_sha256": "27f4fbdfe19b7fbecb00b92cfd15683c3d04f0de395636398ef928e02f4cdc61"
+    },
+    {
+      "id": "holmes-04",
+      "input_tokens": 8192,
+      "decode_matches_saved_text": true,
+      "retained_answer_evidence": 6,
+      "retained_excerpt_codes": 3,
+      "retained_questions": 6,
+      "generation_prefix_verified": true,
+      "input_sha256": "95f55f877e023ae09ac661a38de9a7b8318826d30eaab185d148d952069e213d"
+    }
+  ]
+}

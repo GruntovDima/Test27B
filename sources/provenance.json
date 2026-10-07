@@ -1,0 +1,34 @@
+[
+  {
+    "id": 11,
+    "url": "https://www.gutenberg.org/cache/epub/11/pg11.txt",
+    "sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e",
+    "characters": 163950,
+    "catalog": "https://www.gutenberg.org/ebooks/11",
+    "normalized_utf8_sha256": "01b38ea4c710a84bc18d0bd41271a5a1a92b94e97b2812f4dece97d4a694725e"
+  },
+  {
+    "id": 55,
+    "url": "https://www.gutenberg.org/cache/epub/55/pg55.txt",
+    "sha256": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75",
+    "characters": 227109,
+    "catalog": "https://www.gutenberg.org/ebooks/55",
+    "normalized_utf8_sha256": "969bffab7740d4d8a0bac332d78bd0152ad4a40a2efc52f06c74a9bb6120be75"
+  },
+  {
+    "id": 120,
+    "url": "https://www.gutenberg.org/cache/epub/120/pg120.txt",
+    "sha256": "5bc08275eacea8640b1aa185c645283bb8c564d7b23df6b03437d229b4fc6ebd",
+    "characters": 383806,
+    "catalog": "https://www.gutenberg.org/ebooks/120",
+    "normalized_utf8_sha256": "5bc08275eacea8640b1aa185c645283bb8c564d7b23df6b03437d229b4fc6ebd"
+  },
+  {
+    "id": 1661,
+    "url": "https://www.gutenberg.org/cache/epub/1661/pg1661.txt",
+    "sha256": "922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0",
+    "characters": 581601,
+    "catalog": "https://www.gutenberg.org/ebooks/1661",
+    "normalized_utf8_sha256": "922e2a12ccb43a4c9544c260b2166c6ad2097aeb5957faeee113f173bb857cd0"
+  }
+]

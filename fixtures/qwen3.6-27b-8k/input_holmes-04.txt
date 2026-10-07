@@ -1,0 +1,675 @@
+<|im_start|>system
+Read the supplied excerpts and answer their questions. Return only the requested JSON object.<|im_end|>
+<|im_start|>user
+Document ID: holmes-04
+The Adventures of Sherlock Holmes — Arthur Conan Doyle
+The following are three excerpts; intervening passages may be omitted.
+
+EXCERPT 1; CODE CASE-A-397
+
+I. A SCANDAL IN BOHEMIA
+
+
+I.
+
+To Sherlock Holmes she is always _the_ woman. I have seldom heard him
+mention her under any other name. In his eyes she eclipses and
+predominates the whole of her sex. It was not that he felt any emotion
+akin to love for Irene Adler. All emotions, and that one particularly,
+were abhorrent to his cold, precise but admirably balanced mind. He
+was, I take it, the most perfect reasoning and observing machine that
+the world has seen, but as a lover he would have placed himself in a
+false position. He never spoke of the softer passions, save with a gibe
+and a sneer. They were admirable things for the observer—excellent for
+drawing the veil from men’s motives and actions. But for the trained
+reasoner to admit such intrusions into his own delicate and finely
+adjusted temperament was to introduce a distracting factor which might
+throw a doubt upon all his mental results. Grit in a sensitive
+instrument, or a crack in one of his own high-power lenses, would not
+be more disturbing than a strong emotion in a nature such as his. And
+yet there was but one woman to him, and that woman was the late Irene
+Adler, of dubious and questionable memory.
+
+I had seen little of Holmes lately. My marriage had drifted us away
+from each other. My own complete happiness, and the home-centred
+interests which rise up around the man who first finds himself master
+of his own establishment, were sufficient to absorb all my attention,
+while Holmes, who loathed every form of society with his whole Bohemian
+soul, remained in our lodgings in Baker Street, buried among his old
+books, and alternating from week to week between cocaine and ambition,
+the drowsiness of the drug, and the fierce energy of his own keen
+nature. He was still, as ever, deeply attracted by the study of crime,
+and occupied his immense faculties and extraordinary powers of
+observation in following out those clues, and clearing up those
+mysteries which had been abandoned as hopeless by the official police.
+From time to time I heard some vague account of his doings: of his
+summons to Odessa in the case of the Trepoff murder, of his clearing up
+of the singular tragedy of the Atkinson brothers at Trincomalee, and
+finally of the mission which he had accomplished so delicately and
+successfully for the reigning family of Holland. Beyond these signs of
+his activity, however, which I merely shared with all the readers of
+the daily press, I knew little of my former friend and companion.
+
+One night—it was on the twentieth of March, 1888—I was returning from a
+journey to a patient (for I had now returned to civil practice), when
+my way led me through Baker Street. As I passed the well-remembered
+door, which must always be associated in my mind with my wooing, and
+with the dark incidents of the Study in Scarlet, I was seized with a
+keen desire to see Holmes again, and to know how he was employing his
+extraordinary powers. His rooms were brilliantly lit, and, even as I
+looked up, I saw his tall, spare figure pass twice in a dark silhouette
+against the blind. He was pacing the room swiftly, eagerly, with his
+head sunk upon his chest and his hands clasped behind him. To me, who
+knew his every mood and habit, his attitude and manner told their own
+story. He was at work again. He had risen out of his drug-created
+dreams and was hot upon the scent of some new problem. I rang the bell
+and was shown up to the chamber which had formerly been in part my own.
+
+His manner was not effusive. It seldom was; but he was glad, I think,
+to see me. With hardly a word spoken, but with a kindly eye, he waved
+me to an armchair, threw across his case of cigars, and indicated a
+spirit case and a gasogene in the corner. Then he stood before the fire
+and looked me over in his singular introspective fashion.
+
+“Wedlock suits you,” he remarked. “I think, Watson, that you have put
+on seven and a half pounds since I saw you.”
+
+“Seven!” I answered.
+
+“Indeed, I should have thought a little more. Just a trifle more, I
+fancy, Watson. And in practice again, I observe. You did not tell me
+that you intended to go into harness.”
+
+“Then, how do you know?”
+
+“I see it, I deduce it. How do I know that you have been getting
+yourself very wet lately, and that you have a most clumsy and careless
+servant girl?”
+
+“My dear Holmes,” said I, “this is too much. You would certainly have
+been burned, had you lived a few centuries ago. It is true that I had a
+country walk on Thursday and came home in a dreadful mess, but as I
+have changed my clothes I can’t imagine how you deduce it. As to Mary
+Jane, she is incorrigible, and my wife has given her notice, but there,
+again, I fail to see how you work it out.”
+
+He chuckled to himself and rubbed his long, nervous hands together.
+
+“It is simplicity itself,” said he; “my eyes tell me that on the inside
+of your left shoe, just where the firelight strikes it, the leather is
+scored by six almost parallel cuts. Obviously they have been caused by
+someone who has very carelessly scraped round the edges of the sole in
+order to remove crusted mud from it. Hence, you see, my double
+deduction that you had been out in vile weather, and that you had a
+particularly malignant boot-slitting specimen of the London slavey. As
+to your practice, if a gentleman walks into my rooms smelling of
+iodoform, with a black mark of nitrate of silver upon his right
+forefinger, and a bulge on the right side of his top-hat to show where
+he has secreted his stethoscope, I must be dull, indeed, if I do not
+pronounce him to be an active member of the medical profession.”
+
+I could not help laughing at the ease with which he explained his
+process of deduction. “When I hear you give your reasons,” I remarked,
+“the thing always appears to me to be so ridiculously simple that I
+could easily do it myself, though at each successive instance of your
+reasoning I am baffled until you explain your process. And yet I
+believe that my eyes are as good as yours.”
+
+“Quite so,” he answered, lighting a cigarette, and throwing himself
+down into an armchair. “You see, but you do not observe. The
+distinction is clear. For example, you have frequently seen the steps
+which lead up from the hall to this room.”
+
+“Frequently.”
+
+“How often?”
+
+“Well, some hundreds of times.”
+
+“Then how many are there?”
+
+“How many? I don’t know.”
+
+“Quite so! You have not observed. And yet you have seen. That is just
+my point. Now, I know that there are seventeen steps, because I have
+both seen and observed. By the way, since you are interested in these
+little problems, and since you are good enough to chronicle one or two
+of my trifling experiences, you may be interested in this.” He threw
+over a sheet of thick, pink-tinted notepaper which had been lying open
+upon the table. “It came by the last post,” said he. “Read it aloud.”
+
+The note was undated, and without either signature or address.
+
+“There will call upon you to-night, at a quarter to eight o’clock,” it
+said, “a gentleman who desires to consult you upon a matter of the very
+deepest moment. Your recent services to one of the royal houses of
+Europe have shown that you are one who may safely be trusted with
+matters which are of an importance which can hardly be exaggerated.
+This account of you we have from all quarters received. Be in your
+chamber then at that hour, and do not take it amiss if your visitor
+wear a mask.”
+
+“This is indeed a mystery,” I remarked. “What do you imagine that it
+means?”
+
+“I have no data yet. It is a capital mistake to theorise before one has
+data. Insensibly one begins to twist facts to suit theories, instead of
+theories to suit facts. But the note itself. What do you deduce from
+it?”
+
+I carefully examined the writing, and the paper upon which it was
+written.
+
+“The man who wrote it was presumably well to do,” I remarked,
+endeavouring to imitate my companion’s processes. “Such paper could not
+be bought under half a crown a packet. It is peculiarly strong and
+stiff.”
+
+“Peculiar—that is the very word,” said Holmes. “It is not an English
+paper at all. Hold it up to the light.”
+
+I did so, and saw a large “E” with a small “g,” a “P,” and a large “G”
+with a small “t” woven into the texture of the paper.
+
+“What do you make of that?” asked Holmes.
+
+“The name of the maker, no doubt; or his monogram, rather.”
+
+“Not at all. The ‘G’ with the small ‘t’ stands for ‘Gesellschaft,’
+which is the German for ‘Company.’ It is a customary contraction like
+our ‘Co.’ ‘P,’ of course, stands for ‘Papier.’ Now for the ‘Eg.’ Let us
+glance at our Continental Gazetteer.” He took down a heavy brown volume
+from his shelves. “Eglow, Eglonitz—here we are, Egria. It is in a
+German-speaking country—in Bohemia, not far from Carlsbad. ‘Remarkable
+as being the scene of the death of Wallenstein, and for its numerous
+glass-factories and paper-mills.’ Ha, ha, my boy, what do you make of
+that?” His eyes sparkled, and he sent up a great blue triumphant cloud
+from his cigarette.
+
+“The paper was made in Bohemia,” I said.
+
+“Precisely. And the man who wrote the note is a German. Do you note the
+peculiar construction of the sentence—‘This account of you we have from
+all quarters received.’ A Frenchman or Russian could not have written
+that. It is the German who is so uncourteous to his verbs. It only
+remains, therefore, to discover what is wanted by this German who
+writes upon Bohemian paper and prefers wearing a mask to showing his
+face. And here he comes, if I am not mistaken, to resolve all our
+doubts.”
+
+As he spoke there was the sharp sound of horses’ hoofs and grating
+wheels against the curb, followed by a sharp pull at the bell. Holmes
+whistled.
+
+“A pair, by the sound,” said he. “Yes,” he continued, glancing out of
+the window. “A nice little brougham and a pair of beauties. A hundred
+and fifty guineas apiece. There’s money in this case, Watson, if there
+is nothing else.”
+
+“I think that I had better go, Holmes.”
+
+“Not a bit, Doctor. Stay where you are. I am lost without my Boswell.
+And this promises to be interesting. It would be a pity to miss it.”
+
+“But your client—”
+
+“Never mind him. I may want your help, and so may he. Here he comes.
+Sit down in that armchair, Doctor, and give us your best attention.”
+
+A slow and heavy step, which had been heard upon the stairs and in the
+passage, paused immediately outside the door. Then there was a loud and
+authoritative tap.
+
+“Come in!” said Holmes.
+
+A man entered who could hardly have been less than six feet six inches
+in height, with the chest and limbs of a Hercules. His
+
+END OF EXCERPT
+
+EXCERPT 2; CODE CASE-B-652
+
+II. THE RED-HEADED LEAGUE
+
+
+ I had called upon my friend, Mr. Sherlock Holmes, one day in the
+ autumn of last year and found him in deep conversation with a very
+ stout, florid-faced, elderly gentleman with fiery red hair. With an
+ apology for my intrusion, I was about to withdraw when Holmes pulled
+ me abruptly into the room and closed the door behind me.
+
+“You could not possibly have come at a better time, my dear Watson,” he
+said cordially.
+
+“I was afraid that you were engaged.”
+
+“So I am. Very much so.”
+
+“Then I can wait in the next room.”
+
+“Not at all. This gentleman, Mr. Wilson, has been my partner and helper
+in many of my most successful cases, and I have no doubt that he will
+be of the utmost use to me in yours also.”
+
+The stout gentleman half rose from his chair and gave a bob of
+greeting, with a quick little questioning glance from his small
+fat-encircled eyes.
+
+“Try the settee,” said Holmes, relapsing into his armchair and putting
+his fingertips together, as was his custom when in judicial moods. “I
+know, my dear Watson, that you share my love of all that is bizarre and
+outside the conventions and humdrum routine of everyday life. You have
+shown your relish for it by the enthusiasm which has prompted you to
+chronicle, and, if you will excuse my saying so, somewhat to embellish
+so many of my own little adventures.”
+
+“Your cases have indeed been of the greatest interest to me,” I
+observed.
+
+“You will remember that I remarked the other day, just before we went
+into the very simple problem presented by Miss Mary Sutherland, that
+for strange effects and extraordinary combinations we must go to life
+itself, which is always far more daring than any effort of the
+imagination.”
+
+“A proposition which I took the liberty of doubting.”
+
+“You did, Doctor, but none the less you must come round to my view, for
+otherwise I shall keep on piling fact upon fact on you until your
+reason breaks down under them and acknowledges me to be right. Now, Mr.
+Jabez Wilson here has been good enough to call upon me this morning,
+and to begin a narrative which promises to be one of the most singular
+which I have listened to for some time. You have heard me remark that
+the strangest and most unique things are very often connected not with
+the larger but with the smaller crimes, and occasionally, indeed, where
+there is room for doubt whether any positive crime has been committed.
+As far as I have heard, it is impossible for me to say whether the
+present case is an instance of crime or not, but the course of events
+is certainly among the most singular that I have ever listened to.
+Perhaps, Mr. Wilson, you would have the great kindness to recommence
+your narrative. I ask you not merely because my friend Dr. Watson has
+not heard the opening part but also because the peculiar nature of the
+story makes me anxious to have every possible detail from your lips. As
+a rule, when I have heard some slight indication of the course of
+events, I am able to guide myself by the thousands of other similar
+cases which occur to my memory. In the present instance I am forced to
+admit that the facts are, to the best of my belief, unique.”
+
+The portly client puffed out his chest with an appearance of some
+little pride and pulled a dirty and wrinkled newspaper from the inside
+pocket of his greatcoat. As he glanced down the advertisement column,
+with his head thrust forward and the paper flattened out upon his knee,
+I took a good look at the man and endeavoured, after the fashion of my
+companion, to read the indications which might be presented by his
+dress or appearance.
+
+I did not gain very much, however, by my inspection. Our visitor bore
+every mark of being an average commonplace British tradesman, obese,
+pompous, and slow. He wore rather baggy grey shepherd’s check trousers,
+a not over-clean black frock-coat, unbuttoned in the front, and a drab
+waistcoat with a heavy brassy Albert chain, and a square pierced bit of
+metal dangling down as an ornament. A frayed top-hat and a faded brown
+overcoat with a wrinkled velvet collar lay upon a chair beside him.
+Altogether, look as I would, there was nothing remarkable about the man
+save his blazing red head, and the expression of extreme chagrin and
+discontent upon his features.
+
+Sherlock Holmes’ quick eye took in my occupation, and he shook his head
+with a smile as he noticed my questioning glances. “Beyond the obvious
+facts that he has at some time done manual labour, that he takes snuff,
+that he is a Freemason, that he has been in China, and that he has done
+a considerable amount of writing lately, I can deduce nothing else.”
+
+Mr. Jabez Wilson started up in his chair, with his forefinger upon the
+paper, but his eyes upon my companion.
+
+“How, in the name of good-fortune, did you know all that, Mr. Holmes?”
+he asked. “How did you know, for example, that I did manual labour.
+It’s as true as gospel, for I began as a ship’s carpenter.”
+
+“Your hands, my dear sir. Your right hand is quite a size larger than
+your left. You have worked with it, and the muscles are more
+developed.”
+
+“Well, the snuff, then, and the Freemasonry?”
+
+“I won’t insult your intelligence by telling you how I read that,
+especially as, rather against the strict rules of your order, you use
+an arc-and-compass breastpin.”
+
+“Ah, of course, I forgot that. But the writing?”
+
+“What else can be indicated by that right cuff so very shiny for five
+inches, and the left one with the smooth patch near the elbow where you
+rest it upon the desk?”
+
+“Well, but China?”
+
+“The fish that you have tattooed immediately above your right wrist
+could only have been done in China. I have made a small study of tattoo
+marks and have even contributed to the literature of the subject. That
+trick of staining the fishes’ scales of a delicate pink is quite
+peculiar to China. When, in addition, I see a Chinese coin hanging from
+your watch-chain, the matter becomes even more simple.”
+
+Mr. Jabez Wilson laughed heavily. “Well, I never!” said he. “I thought
+at first that you had done something clever, but I see that there was
+nothing in it after all.”
+
+“I begin to think, Watson,” said Holmes, “that I make a mistake in
+explaining. ‘_Omne ignotum pro magnifico_,’ you know, and my poor
+little reputation, such as it is, will suffer shipwreck if I am so
+candid. Can you not find the advertisement, Mr. Wilson?”
+
+“Yes, I have got it now,” he answered with his thick red finger planted
+halfway down the column. “Here it is. This is what began it all. You
+just read it for yourself, sir.”
+
+I took the paper from him and read as follows:
+
+“TO THE RED-HEADED LEAGUE: On account of the bequest of the late
+Ezekiah Hopkins, of Lebanon, Pennsylvania, U.S.A., there is now another
+vacancy open which entitles a member of the League to a salary of £ 4 a
+week for purely nominal services. All red-headed men who are sound in
+body and mind and above the age of twenty-one years, are eligible.
+Apply in person on Monday, at eleven o’clock, to Duncan Ross, at the
+offices of the League, 7 Pope’s Court, Fleet Street.”
+
+
+“What on earth does this mean?” I ejaculated after I had twice read
+over the extraordinary announcement.
+
+Holmes chuckled and wriggled in his chair, as was his habit when in
+high spirits. “It is a little off the beaten track, isn’t it?” said he.
+“And now, Mr. Wilson, off you go at scratch and tell us all about
+yourself, your household, and the effect which this advertisement had
+upon your fortunes. You will first make a note, Doctor, of the paper
+and the date.”
+
+“It is _The Morning Chronicle_ of April 27, 1890. Just two months ago.”
+
+“Very good. Now, Mr. Wilson?”
+
+“Well, it is just as I have been telling you, Mr. Sherlock Holmes,”
+said Jabez Wilson, mopping his forehead; “I have a small pawnbroker’s
+business at Coburg Square, near the City. It’s not a very large affair,
+and of late years it has not done more than just give me a living. I
+used to be able to keep two assistants, but now I only keep one; and I
+would have a job to pay him but that he is willing to come for half
+wages so as to learn the business.”
+
+“What is the name of this obliging youth?” asked Sherlock Holmes.
+
+“His name is Vincent Spaulding, and he’s not such a youth, either. It’s
+hard to say his age. I should not wish a smarter assistant, Mr. Holmes;
+and I know very well that he could better himself and earn twice what I
+am able to give him. But, after all, if he is satisfied, why should I
+put ideas in his head?”
+
+“Why, indeed? You seem most fortunate in having an _employé_ who comes
+under the full market price. It is not a common experience among
+employers in this age. I don’t know that your assistant is not as
+remarkable as your advertisement.”
+
+“Oh, he has his faults, too,” said Mr. Wilson. “Never was such a fellow
+for photography. Snapping away with a camera when he ought to be
+improving his mind, and then diving down into the cellar like a rabbit
+into its hole to develop his pictures. That is his main fault, but on
+the whole he’s a good worker. There’s no vice in him.”
+
+“He is still with you, I presume?”
+
+“Yes, sir. He and a girl of fourteen, who does a bit of simple cooking
+and keeps the place clean—that’s all I have in the house, for I am a
+widower and never had any family. We live very quietly, sir, the three
+of us; and we keep a roof over our heads and pay our debts, if we do
+nothing more.
+
+“The first thing that put us out was that advertisement. Spaulding, he
+came down into the office just this day eight weeks, with this very
+paper in his hand, and he says:
+
+“‘I wish to the Lord, Mr. Wilson, that I was a red-headed man.’
+
+“‘Why that?’ I asks.
+
+“‘Why,’ says he, ‘here’s another vacancy on the League of the
+Red-headed Men. It’s worth quite a little fortune to any man who gets
+it, and I understand that there are more vacancies than there are men,
+so that the trustees are at their wits’ end what to do with the money.
+If my hair would only change colour, here’s a nice little crib all
+ready for me to step into.’
+
+“‘Why, what is it, then?’ I asked. You see, Mr. Holmes, I am a very
+stay-at-home man, and as my business came to me instead of my having to
+go to it, I was often weeks on end without putting my foot over the
+door-mat. In that way I didn’t know much of what was going on outside,
+and I was always glad of a bit of news.
+
+“‘Have you never heard of the League of the Red-headed Men?’ he asked
+with his eyes open.
+
+“‘Never.’
+
+“‘Why, I wonder at that, for you are eligible yourself for one of the
+vac
+
+END OF EXCERPT
+
+EXCERPT 3; CODE CASE-C-048
+
+III. A CASE OF IDENTITY
+
+
+“My dear fellow,” said Sherlock Holmes as we sat on either side of the
+fire in his lodgings at Baker Street, “life is infinitely stranger than
+anything which the mind of man could invent. We would not dare to
+conceive the things which are really mere commonplaces of existence. If
+we could fly out of that window hand in hand, hover over this great
+city, gently remove the roofs, and peep in at the queer things which
+are going on, the strange coincidences, the plannings, the
+cross-purposes, the wonderful chains of events, working through
+generations, and leading to the most _outré_ results, it would make all
+fiction with its conventionalities and foreseen conclusions most stale
+and unprofitable.”
+
+“And yet I am not convinced of it,” I answered. “The cases which come
+to light in the papers are, as a rule, bald enough, and vulgar enough.
+We have in our police reports realism pushed to its extreme limits, and
+yet the result is, it must be confessed, neither fascinating nor
+artistic.”
+
+“A certain selection and discretion must be used in producing a
+realistic effect,” remarked Holmes. “This is wanting in the police
+report, where more stress is laid, perhaps, upon the platitudes of the
+magistrate than upon the details, which to an observer contain the
+vital essence of the whole matter. Depend upon it, there is nothing so
+unnatural as the commonplace.”
+
+I smiled and shook my head. “I can quite understand your thinking so,”
+I said. “Of course, in your position of unofficial adviser and helper
+to everybody who is absolutely puzzled, throughout three continents,
+you are brought in contact with all that is strange and bizarre. But
+here”—I picked up the morning paper from the ground—“let us put it to a
+practical test. Here is the first heading upon which I come. ‘A
+husband’s cruelty to his wife.’ There is half a column of print, but I
+know without reading it that it is all perfectly familiar to me. There
+is, of course, the other woman, the drink, the push, the blow, the
+bruise, the sympathetic sister or landlady. The crudest of writers
+could invent nothing more crude.”
+
+“Indeed, your example is an unfortunate one for your argument,” said
+Holmes, taking the paper and glancing his eye down it. “This is the
+Dundas separation case, and, as it happens, I was engaged in clearing
+up some small points in connection with it. The husband was a
+teetotaler, there was no other woman, and the conduct complained of was
+that he had drifted into the habit of winding up every meal by taking
+out his false teeth and hurling them at his wife, which, you will
+allow, is not an action likely to occur to the imagination of the
+average story-teller. Take a pinch of snuff, Doctor, and acknowledge
+that I have scored over you in your example.”
+
+He held out his snuffbox of old gold, with a great amethyst in the
+centre of the lid. Its splendour was in such contrast to his homely
+ways and simple life that I could not help commenting upon it.
+
+“Ah,” said he, “I forgot that I had not seen you for some weeks. It is
+a little souvenir from the King of Bohemia in return for my assistance
+in the case of the Irene Adler papers.”
+
+“And the ring?” I asked, glancing at a remarkable brilliant which
+sparkled upon his finger.
+
+“It was from the reigning family of Holland, though the matter in which
+I served them was of such delicacy that I cannot confide it even to
+you, who have been good enough to chronicle one or two of my little
+problems.”
+
+“And have you any on hand just now?” I asked with interest.
+
+“Some ten or twelve, but none which present any feature of interest.
+They are important, you understand, without being interesting. Indeed,
+I have found that it is usually in unimportant matters that there is a
+field for the observation, and for the quick analysis of cause and
+effect which gives the charm to an investigation. The larger crimes are
+apt to be the simpler, for the bigger the crime the more obvious, as a
+rule, is the motive. In these cases, save for one rather intricate
+matter which has been referred to me from Marseilles, there is nothing
+which presents any features of interest. It is possible, however, that
+I may have something better before very many minutes are over, for this
+is one of my clients, or I am much mistaken.”
+
+He had risen from his chair and was standing between the parted blinds
+gazing down into the dull neutral-tinted London street. Looking over
+his shoulder, I saw that on the pavement opposite there stood a large
+woman with a heavy fur boa round her neck, and a large curling red
+feather in a broad-brimmed hat which was tilted in a coquettish Duchess
+of Devonshire fashion over her ear. From under this great panoply she
+peeped up in a nervous, hesitating fashion at our windows, while her
+body oscillated backward and forward, and her fingers fidgeted with her
+glove buttons. Suddenly, with a plunge, as of the swimmer who leaves
+the bank, she hurried across the road, and we heard the sharp clang of
+the bell.
+
+“I have seen those symptoms before,” said Holmes, throwing his
+cigarette into the fire. “Oscillation upon the pavement always means an
+_affaire de cœur_. She would like advice, but is not sure that the
+matter is not too delicate for communication. And yet even here we may
+discriminate. When a woman has been seriously wronged by a man she no
+longer oscillates, and the usual symptom is a broken bell wire. Here we
+may take it that there is a love matter, but that the maiden is not so
+much angry as perplexed, or grieved. But here she comes in person to
+resolve our doubts.”
+
+As he spoke there was a tap at the door, and the boy in buttons entered
+to announce Miss Mary Sutherland, while the lady herself loomed behind
+his small black figure like a full-sailed merchant-man behind a tiny
+pilot boat. Sherlock Holmes welcomed her with the easy courtesy for
+which he was remarkable, and, having closed the door and bowed her into
+an armchair, he looked her over in the minute and yet abstracted
+fashion which was peculiar to him.
+
+“Do you not find,” he said, “that with your short sight it is a little
+trying to do so much typewriting?”
+
+“I did at first,” she answered, “but now I know where the letters are
+without looking.” Then, suddenly realising the full purport of his
+words, she gave a violent start and looked up, with fear and
+astonishment upon her broad, good-humoured face. “You’ve heard about
+me, Mr. Holmes,” she cried, “else how could you know all that?”
+
+“Never mind,” said Holmes, laughing; “it is my business to know things.
+Perhaps I have trained myself to see what others overlook. If not, why
+should you come to consult me?”
+
+“I came to you, sir, because I heard of you from Mrs. Etherege, whose
+husband you found so easy when the police and everyone had given him up
+for dead. Oh, Mr. Holmes, I wish you would do as much for me. I’m not
+rich, but still I have a hundred a year in my own right, besides the
+little that I make by the machine, and I would give it all to know what
+has become of Mr. Hosmer Angel.”
+
+“Why did you come away to consult me in such a hurry?” asked Sherlock
+Holmes, with his finger-tips together and his eyes to the ceiling.
+
+Again a startled look came over the somewhat vacuous face of Miss Mary
+Sutherland. “Yes, I did bang out of the house,” she said, “for it made
+me angry to see the easy way in which Mr. Windibank—that is, my
+father—took it all. He would not go to the police, and he would not go
+to you, and so at last, as he would do nothing and kept on saying that
+there was no harm done, it made me mad, and I just on with my things
+and came right away to you.”
+
+“Your father,” said Holmes, “your stepfather, surely, since the name is
+different.”
+
+“Yes, my stepfather. I call him father, though it sounds funny, too,
+for he is only five years and two months older than myself.”
+
+“And your mother is alive?”
+
+“Oh, yes, mother is alive and well. I wasn’t best pleased, Mr. Holmes,
+when she married again so soon after father’s death, and a man who was
+nearly fifteen years younger than herself. Father was a plumber in the
+Tottenham Court Road, and he left a tidy business behind him, which
+mother carried on with Mr. Hardy, the foreman; but when Mr. Windibank
+came he made her sell the business, for he was very superior, being a
+traveller in wines. They got £ 4700 for the goodwill and interest,
+which wasn’t near as much as father could have got if he had been
+alive.”
+
+I had expected to see Sherlock Holmes impatient under this rambling and
+inconsequential narrative, but, on the contrary, he had listened with
+the greatest concentration of attention.
+
+“Your own little income,” he asked, “does it come out of the business?”
+
+“Oh, no, sir. It is quite separate and was left me by my uncle Ned in
+Auckland. It is in New Zealand stock, paying 4½ per cent. Two thousand
+five hundred pounds was the amount, but I can only touch the interest.”
+
+“You interest me extremely,” said Holmes. “And since you draw so large
+a sum as a hundred a year, with what you earn into the bargain, you no
+doubt travel a little and indulge yourself in every way. I believe that
+a single lady can get on very nicely upon an income of about £ 60.”
+
+“I could do with much less than that, Mr. Holmes, but you understand
+that as long as I live at home I don’t wish to be a burden to them, and
+so they have the use of the money just while I am staying with them. Of
+course, that is only just for the time. Mr. Windibank draws my interest
+every quarter and pays it over to mother, and I find that I can do
+pretty well with what I earn at typewriting. It brings me twopence a
+sheet, and I can often do from fifteen to twenty sheets in a day.”
+
+“You have made your position very clear to me,” said Holmes. “This is
+my friend, Dr. Watson, before whom you can speak as freely as before
+myself. Kindly tell us now all about your connection with Mr. Hosmer
+Angel.”
+
+A flush stole over Miss Sutherland’s face, and she picked nervously at
+the fringe of her jacket. “I met him first at the gasfitters’ ball,”
+she said. “They used to send father tickets when he was alive, and then
+afterwards they remembered us, and sent them to mother. Mr. Windibank
+did not wish us to go. He never did wish us to go anywhere. He would
+get quite mad if I wanted so much as to join a Sunday-school treat. But
+this time I was set on going, and I would go; for what right had he to
+prevent? He said the folk were not fit for us to know, when all
+father’s friends were to be there. And he said that I had nothing fit
+to wear, when I had my purple plush that I had never so much as taken
+out of the drawer. At last, when nothing else would do, he went off to
+
+
+END OF EXCERPT
+
+Return exactly one JSON object. All values must be short English strings. Keys: document_id, excerpt_1_code, excerpt_2_code, excerpt_3_code, answer_1, answer_2, answer_3, answer_4, answer_5, answer_6. Copy the document ID and each excerpt code from this document. No explanations or additional turns.
+answer_1 (excerpt 1): What is the full name of the woman Holmes calls 'the woman'?
+answer_2 (excerpt 1): On which street are Holmes's lodgings?
+answer_3 (excerpt 2): What is the full name of the portly red-haired client?
+answer_4 (excerpt 2): In which season does Watson call on Holmes at the start of this story?
+answer_5 (excerpt 3): What gemstone is in the centre of Holmes's snuffbox lid?
+answer_6 (excerpt 3): Which monarch gave Holmes that snuffbox?<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+

@@ -1,0 +1,609 @@
+<|im_start|>system
+Read the supplied excerpts and answer their questions. Return only the requested JSON object.<|im_end|>
+<|im_start|>user
+Document ID: treasure-03
+Treasure Island — Robert Louis Stevenson
+The following are three excerpts; intervening passages may be omitted.
+
+EXCERPT 1; CODE SEA-A-648
+
+I
+The Old Sea-dog at the Admiral Benbow
+
+
+Squire Trelawney, Dr. Livesey, and the rest of these gentlemen having
+asked me to write down the whole particulars about Treasure Island, from
+the beginning to the end, keeping nothing back but the bearings of the
+island, and that only because there is still treasure not yet lifted, I
+take up my pen in the year of grace 17—, and go back to the time when
+my father kept the Admiral Benbow inn and the brown old seaman with the
+sabre cut first took up his lodging under our roof.
+
+I remember him as if it were yesterday, as he came plodding to the
+inn door, his sea-chest following behind him in a hand-barrow--a
+tall, strong, heavy, nut-brown man, his tarry pigtail falling over the
+shoulder of his soiled blue coat, his hands ragged and scarred, with
+black, broken nails, and the sabre cut across one cheek, a dirty, livid
+white. I remember him looking round the cove and whistling to himself
+as he did so, and then breaking out in that old sea-song that he sang so
+often afterwards:
+
+          “Fifteen men on the dead man’s chest--
+             Yo-ho-ho, and a bottle of rum!”
+
+in the high, old tottering voice that seemed to have been tuned and
+broken at the capstan bars. Then he rapped on the door with a bit of
+stick like a handspike that he carried, and when my father appeared,
+called roughly for a glass of rum. This, when it was brought to him,
+he drank slowly, like a connoisseur, lingering on the taste and still
+looking about him at the cliffs and up at our signboard.
+
+“This is a handy cove,” says he at length; “and a pleasant sittyated
+grog-shop. Much company, mate?”
+
+My father told him no, very little company, the more was the pity.
+
+“Well, then,” said he, “this is the berth for me. Here you, matey,” he
+cried to the man who trundled the barrow; “bring up alongside and help
+up my chest. I’ll stay here a bit,” he continued. “I’m a plain man; rum
+and bacon and eggs is what I want, and that head up there for to watch
+ships off. What you mought call me? You mought call me captain. Oh, I
+see what you’re at--there”; and he threw down three or four gold pieces
+on the threshold. “You can tell me when I’ve worked through that,” says
+he, looking as fierce as a commander.
+
+And indeed bad as his clothes were and coarsely as he spoke, he had none
+of the appearance of a man who sailed before the mast, but seemed like
+a mate or skipper accustomed to be obeyed or to strike. The man who came
+with the barrow told us the mail had set him down the morning before at
+the Royal George, that he had inquired what inns there were along the
+coast, and hearing ours well spoken of, I suppose, and described as
+lonely, had chosen it from the others for his place of residence. And
+that was all we could learn of our guest.
+
+He was a very silent man by custom. All day he hung round the cove or
+upon the cliffs with a brass telescope; all evening he sat in a corner
+of the parlour next the fire and drank rum and water very strong. Mostly
+he would not speak when spoken to, only look up sudden and fierce and
+blow through his nose like a fog-horn; and we and the people who came
+about our house soon learned to let him be. Every day when he came back
+from his stroll he would ask if any seafaring men had gone by along the
+road. At first we thought it was the want of company of his own kind
+that made him ask this question, but at last we began to see he was
+desirous to avoid them. When a seaman did put up at the Admiral Benbow
+(as now and then some did, making by the coast road for Bristol) he
+would look in at him through the curtained door before he entered the
+parlour; and he was always sure to be as silent as a mouse when any such
+was present. For me, at least, there was no secret about the matter, for
+I was, in a way, a sharer in his alarms. He had taken me aside one day
+and promised me a silver fourpenny on the first of every month if I
+would only keep my “weather-eye open for a seafaring man with one leg”
+ and let him know the moment he appeared. Often enough when the first
+of the month came round and I applied to him for my wage, he would only
+blow through his nose at me and stare me down, but before the week was
+out he was sure to think better of it, bring me my four-penny piece, and
+repeat his orders to look out for “the seafaring man with one leg.”
+
+How that personage haunted my dreams, I need scarcely tell you. On
+stormy nights, when the wind shook the four corners of the house and
+the surf roared along the cove and up the cliffs, I would see him in a
+thousand forms, and with a thousand diabolical expressions. Now the leg
+would be cut off at the knee, now at the hip; now he was a monstrous
+kind of a creature who had never had but the one leg, and that in the
+middle of his body. To see him leap and run and pursue me over hedge and
+ditch was the worst of nightmares. And altogether I paid pretty dear for
+my monthly fourpenny piece, in the shape of these abominable fancies.
+
+But though I was so terrified by the idea of the seafaring man with one
+leg, I was far less afraid of the captain himself than anybody else who
+knew him. There were nights when he took a deal more rum and water
+than his head would carry; and then he would sometimes sit and sing his
+wicked, old, wild sea-songs, minding nobody; but sometimes he would call
+for glasses round and force all the trembling company to listen to his
+stories or bear a chorus to his singing. Often I have heard the house
+shaking with “Yo-ho-ho, and a bottle of rum,” all the neighbours joining
+in for dear life, with the fear of death upon them, and each singing
+louder than the other to avoid remark. For in these fits he was the most
+overriding companion ever known; he would slap his hand on the table for
+silence all round; he would fly up in a passion of anger at a question,
+or sometimes because none was put, and so he judged the company was not
+following his story. Nor would he allow anyone to leave the inn till he
+had drunk himself sleepy and reeled off to bed.
+
+His stories were what frightened people worst of all. Dreadful stories
+they were--about hanging, and walking the plank, and storms at sea, and
+the Dry Tortugas, and wild deeds and places on the Spanish Main. By his
+own account he must have lived his life among some of the wickedest men
+that God ever allowed upon the sea, and the language in which he told
+these stories shocked our plain country people almost as much as the
+crimes that he described. My father was always saying the inn would be
+ruined, for people would soon cease coming there to be tyrannized over
+and put down, and sent shivering to their beds; but I really believe his
+presence did us good. People were frightened at the time, but on looking
+back they rather liked it; it was a fine excitement in a quiet country
+life, and there was even a party of the younger men who pretended to
+admire him, calling him a “true sea-dog” and a “real old salt” and
+such like names, and saying there was the sort of man that made England
+terrible at sea.
+
+In one way, indeed, he bade fair to ruin us, for he kept on staying week
+after week, and at last month after month, so that all the money had
+been long exhausted, and still my father never plucked up the heart to
+insist on having more. If ever he mentioned it, the captain blew through
+his nose so loudly that you might say he roared, and stared my poor
+father out of the room. I have seen him wringing his hands after such a
+rebuff, and I am sure the annoyance and the terror he lived in must have
+greatly hastened his early and unhappy death.
+
+All the time he lived with us the captain made no change whatever in his
+dress but to buy some stockings from a hawker. One of the cocks of his
+hat having fallen down, he let it hang from that day forth, though it
+was a great annoyance when it blew. I remember the appearance of his
+coat, which he patched himself upstairs in his room, and which, before
+the end, was nothing but patches. He never wrote or received a letter,
+and he never spoke with any but the neighbours, and with these, for the
+most part, only when drunk on rum. The great sea-chest none of us had
+ever seen open.
+
+He was only once crossed, and that was towards the end, when my poor
+father was far gone in a decline that took him off. Dr. Livesey came
+late one afternoon to see the patient, took a bit of dinner from my
+mother, and went into the parlour to smoke a pipe until his horse should
+come down from the hamlet, for we had no stabling at the old Benbow. I
+followed him in, and I remember observing the contrast the neat, bright
+doctor, with his powder as white as snow and his bright, black eyes and
+pleasant manners, made with the coltish country folk, and above all,
+with that filthy, heavy, bleared scarecrow of a pirate of ours, sitting,
+far gone in rum, with his arms on the table. Suddenly he--the captain,
+that is--began to pipe up his eternal song:
+
+          “Fifteen men on the dead man’s chest--
+             Yo-ho-ho, and a bottle of rum!
+           Drink and the devil had done for the rest--
+             Yo-ho-ho, and a bottle of rum!”
+
+At first I had supposed “the dead man’s chest” to be that identical big
+box of his upstairs in the front room, and the thought had been mingled
+in my nightmares with that of the one-legged seafaring man. But by this
+time we had all long ceased to pay any particular notice to the song; it
+was new, that night, to nobody but Dr. Livesey, and on him I observed it
+did not produce an agreeable effect, for he looked up for a moment quite
+angrily before he went on with his talk to old Taylor, the gardener, on
+a new cure for the rheumatics. In the meantime, the captain gradually
+brightened up at his own music, and at last flapped his hand upon
+the table before him in a way we all knew to mean silence. The voices
+stopped at once, all but Dr. Livesey’s; he went on as before speaking
+clear and kind and drawing briskly at his pipe between every word or
+two. The captain glared at him for a while, flapped his hand again,
+glared still harder, and at last broke out with a villainous, low oath,
+“Silence, there, between decks!”
+
+“Were you addressing me, sir?” says the doctor; and when the ruffian had
+told him, with another oath, that this was so, “I have only one thing to
+say to you, sir,” replies the doctor, “that if you keep on drinking rum,
+the world will soon
+
+END OF EXCERPT
+
+EXCERPT 2; CODE SEA-B-185
+
+III
+The Black Spot
+
+
+About noon I stopped at the captain’s door with some cooling drinks
+and medicines. He was lying very much as we had left him, only a little
+higher, and he seemed both weak and excited.
+
+“Jim,” he said, “you’re the only one here that’s worth anything, and you
+know I’ve been always good to you. Never a month but I’ve given you a
+silver fourpenny for yourself. And now you see, mate, I’m pretty low,
+and deserted by all; and Jim, you’ll bring me one noggin of rum, now,
+won’t you, matey?”
+
+“The doctor--” I began.
+
+But he broke in cursing the doctor, in a feeble voice but heartily.
+“Doctors is all swabs,” he said; “and that doctor there, why, what do
+he know about seafaring men? I been in places hot as pitch, and mates
+dropping round with Yellow Jack, and the blessed land a-heaving like the
+sea with earthquakes--what do the doctor know of lands like that?--and I
+lived on rum, I tell you. It’s been meat and drink, and man and wife,
+to me; and if I’m not to have my rum now I’m a poor old hulk on a lee
+shore, my blood’ll be on you, Jim, and that doctor swab”; and he ran on
+again for a while with curses. “Look, Jim, how my fingers fidges,”
+ he continued in the pleading tone. “I can’t keep ’em still, not I. I
+haven’t had a drop this blessed day. That doctor’s a fool, I tell you.
+If I don’t have a dram o’ rum, Jim, I’ll have the horrors; I seen some
+on ’em already. I seen old Flint in the corner there, behind you; as
+plain as print, I seen him; and if I get the horrors, I’m a man that
+has lived rough, and I’ll raise Cain. Your doctor hisself said one glass
+wouldn’t hurt me. I’ll give you a golden guinea for a noggin, Jim.”
+
+He was growing more and more excited, and this alarmed me for my father,
+who was very low that day and needed quiet; besides, I was reassured by
+the doctor’s words, now quoted to me, and rather offended by the offer
+of a bribe.
+
+“I want none of your money,” said I, “but what you owe my father. I’ll
+get you one glass, and no more.”
+
+When I brought it to him, he seized it greedily and drank it out.
+
+“Aye, aye,” said he, “that’s some better, sure enough. And now, matey,
+did that doctor say how long I was to lie here in this old berth?”
+
+“A week at least,” said I.
+
+“Thunder!” he cried. “A week! I can’t do that; they’d have the black
+spot on me by then. The lubbers is going about to get the wind of me
+this blessed moment; lubbers as couldn’t keep what they got, and want to
+nail what is another’s. Is that seamanly behaviour, now, I want to know?
+But I’m a saving soul. I never wasted good money of mine, nor lost it
+neither; and I’ll trick ’em again. I’m not afraid on ’em. I’ll shake out
+another reef, matey, and daddle ’em again.”
+
+As he was thus speaking, he had risen from bed with great difficulty,
+holding to my shoulder with a grip that almost made me cry out, and
+moving his legs like so much dead weight. His words, spirited as they
+were in meaning, contrasted sadly with the weakness of the voice in
+which they were uttered. He paused when he had got into a sitting
+position on the edge.
+
+“That doctor’s done me,” he murmured. “My ears is singing. Lay me back.”
+
+Before I could do much to help him he had fallen back again to his
+former place, where he lay for a while silent.
+
+“Jim,” he said at length, “you saw that seafaring man today?”
+
+“Black Dog?” I asked.
+
+“Ah! Black Dog,” says he. “_He’s_ a bad ’un; but there’s worse that put him
+on. Now, if I can’t get away nohow, and they tip me the black spot, mind
+you, it’s my old sea-chest they’re after; you get on a horse--you can,
+can’t you? Well, then, you get on a horse, and go to--well, yes,
+I will!--to that eternal doctor swab, and tell him to pipe all
+hands--magistrates and sich--and he’ll lay ’em aboard at the Admiral
+Benbow--all old Flint’s crew, man and boy, all on ’em that’s left. I was
+first mate, I was, old Flint’s first mate, and I’m the on’y one as knows
+the place. He gave it me at Savannah, when he lay a-dying, like as if I
+was to now, you see. But you won’t peach unless they get the black spot
+on me, or unless you see that Black Dog again or a seafaring man with
+one leg, Jim--him above all.”
+
+“But what is the black spot, captain?” I asked.
+
+“That’s a summons, mate. I’ll tell you if they get that. But you keep
+your weather-eye open, Jim, and I’ll share with you equals, upon my
+honour.”
+
+He wandered a little longer, his voice growing weaker; but soon after I
+had given him his medicine, which he took like a child, with the remark,
+“If ever a seaman wanted drugs, it’s me,” he fell at last into a heavy,
+swoon-like sleep, in which I left him. What I should have done had all
+gone well I do not know. Probably I should have told the whole story to
+the doctor, for I was in mortal fear lest the captain should repent of
+his confessions and make an end of me. But as things fell out, my poor
+father died quite suddenly that evening, which put all other matters
+on one side. Our natural distress, the visits of the neighbours, the
+arranging of the funeral, and all the work of the inn to be carried on
+in the meanwhile kept me so busy that I had scarcely time to think of
+the captain, far less to be afraid of him.
+
+He got downstairs next morning, to be sure, and had his meals as usual,
+though he ate little and had more, I am afraid, than his usual supply of
+rum, for he helped himself out of the bar, scowling and blowing through
+his nose, and no one dared to cross him. On the night before the funeral
+he was as drunk as ever; and it was shocking, in that house of mourning,
+to hear him singing away at his ugly old sea-song; but weak as he was,
+we were all in the fear of death for him, and the doctor was suddenly
+taken up with a case many miles away and was never near the house after
+my father’s death. I have said the captain was weak, and indeed he
+seemed rather to grow weaker than regain his strength. He clambered up
+and down stairs, and went from the parlour to the bar and back again,
+and sometimes put his nose out of doors to smell the sea, holding on to
+the walls as he went for support and breathing hard and fast like a man
+on a steep mountain. He never particularly addressed me, and it is my
+belief he had as good as forgotten his confidences; but his temper was
+more flighty, and allowing for his bodily weakness, more violent than
+ever. He had an alarming way now when he was drunk of drawing his
+cutlass and laying it bare before him on the table. But with all that,
+he minded people less and seemed shut up in his own thoughts and rather
+wandering. Once, for instance, to our extreme wonder, he piped up to a
+different air, a kind of country love-song that he must have learned in
+his youth before he had begun to follow the sea.
+
+So things passed until, the day after the funeral, and about three
+o’clock of a bitter, foggy, frosty afternoon, I was standing at the door
+for a moment, full of sad thoughts about my father, when I saw someone
+drawing slowly near along the road. He was plainly blind, for he tapped
+before him with a stick and wore a great green shade over his eyes and
+nose; and he was hunched, as if with age or weakness, and wore a huge
+old tattered sea-cloak with a hood that made him appear positively
+deformed. I never saw in my life a more dreadful-looking figure.
+He stopped a little from the inn, and raising his voice in an odd
+sing-song, addressed the air in front of him, “Will any kind friend
+inform a poor blind man, who has lost the precious sight of his eyes in
+the gracious defence of his native country, England--and God bless King
+George!--where or in what part of this country he may now be?”
+
+“You are at the Admiral Benbow, Black Hill Cove, my good man,” said I.
+
+“I hear a voice,” said he, “a young voice. Will you give me your hand,
+my kind young friend, and lead me in?”
+
+I held out my hand, and the horrible, soft-spoken, eyeless creature
+gripped it in a moment like a vise. I was so much startled that I
+struggled to withdraw, but the blind man pulled me close up to him with
+a single action of his arm.
+
+“Now, boy,” he said, “take me in to the captain.”
+
+“Sir,” said I, “upon my word I dare not.”
+
+“Oh,” he sneered, “that’s it! Take me in straight or I’ll break your
+arm.”
+
+And he gave it, as he spoke, a wrench that made me cry out.
+
+“Sir,” said I, “it is for yourself I mean. The captain is not what he
+used to be. He sits with a drawn cutlass. Another gentleman--”
+
+“Come, now, march,” interrupted he; and I never heard a voice so cruel,
+and cold, and ugly as that blind man’s. It cowed me more than the pain,
+and I began to obey him at once, walking straight in at the door and
+towards the parlour, where our sick old buccaneer was sitting, dazed
+with rum. The blind man clung close to me, holding me in one iron fist
+and leaning almost more of his weight on me than I could carry. “Lead me
+straight up to him, and when I’m in view, cry out, ‘Here’s a friend
+for you, Bill.’ If you don’t, I’ll do this,” and with that he gave me a
+twitch that I thought would have made me faint. Between this and that, I
+was so utterly terrified of the blind beggar that I forgot my terror of
+the captain, and as I opened the parlour door, cried out the words he
+had ordered in a trembling voice.
+
+The poor captain raised his eyes, and at one look the rum went out of
+him and left him staring sober. The expression of his face was not so
+much of terror as of mortal sickness. He made a movement to rise, but I
+do not believe he had enough force left in his body.
+
+“Now, Bill, sit where you are,” said the beggar. “If I can’t see, I can
+hear a finger stirring. Business is business. Hold out your left hand.
+Boy, take his left hand by the wrist and bring it near to my right.”
+
+We both obeyed him to the letter, and I saw him pass something from the
+hollow of the hand that held his stick
+
+END OF EXCERPT
+
+EXCERPT 3; CODE SEA-C-729
+
+VI
+The Captain’s Papers
+
+
+We rode hard all the way till we drew up before Dr. Livesey’s door. The
+house was all dark to the front.
+
+Mr. Dance told me to jump down and knock, and Dogger gave me a stirrup
+to descend by. The door was opened almost at once by the maid.
+
+“Is Dr. Livesey in?” I asked.
+
+No, she said, he had come home in the afternoon but had gone up to the
+hall to dine and pass the evening with the squire.
+
+“So there we go, boys,” said Mr. Dance.
+
+This time, as the distance was short, I did not mount, but ran with
+Dogger’s stirrup-leather to the lodge gates and up the long, leafless,
+moonlit avenue to where the white line of the hall buildings looked on
+either hand on great old gardens. Here Mr. Dance dismounted, and taking
+me along with him, was admitted at a word into the house.
+
+The servant led us down a matted passage and showed us at the end into a
+great library, all lined with bookcases and busts upon the top of them,
+where the squire and Dr. Livesey sat, pipe in hand, on either side of a
+bright fire.
+
+I had never seen the squire so near at hand. He was a tall man, over six
+feet high, and broad in proportion, and he had a bluff, rough-and-ready
+face, all roughened and reddened and lined in his long travels. His
+eyebrows were very black, and moved readily, and this gave him a look of
+some temper, not bad, you would say, but quick and high.
+
+“Come in, Mr. Dance,” says he, very stately and condescending.
+
+“Good evening, Dance,” says the doctor with a nod. “And good evening to
+you, friend Jim. What good wind brings you here?”
+
+The supervisor stood up straight and stiff and told his story like a
+lesson; and you should have seen how the two gentlemen leaned forward
+and looked at each other, and forgot to smoke in their surprise and
+interest. When they heard how my mother went back to the inn, Dr.
+Livesey fairly slapped his thigh, and the squire cried “Bravo!” and
+broke his long pipe against the grate. Long before it was done, Mr.
+Trelawney (that, you will remember, was the squire’s name) had got up
+from his seat and was striding about the room, and the doctor, as if to
+hear the better, had taken off his powdered wig and sat there looking
+very strange indeed with his own close-cropped black poll.
+
+At last Mr. Dance finished the story.
+
+“Mr. Dance,” said the squire, “you are a very noble fellow. And as for
+riding down that black, atrocious miscreant, I regard it as an act of
+virtue, sir, like stamping on a cockroach. This lad Hawkins is a trump,
+I perceive. Hawkins, will you ring that bell? Mr. Dance must have some
+ale.”
+
+“And so, Jim,” said the doctor, “you have the thing that they were
+after, have you?”
+
+“Here it is, sir,” said I, and gave him the oilskin packet.
+
+The doctor looked it all over, as if his fingers were itching to open
+it; but instead of doing that, he put it quietly in the pocket of his
+coat.
+
+“Squire,” said he, “when Dance has had his ale he must, of course, be
+off on his Majesty’s service; but I mean to keep Jim Hawkins here to
+sleep at my house, and with your permission, I propose we should have up
+the cold pie and let him sup.”
+
+“As you will, Livesey,” said the squire; “Hawkins has earned better than
+cold pie.”
+
+So a big pigeon pie was brought in and put on a sidetable, and I made
+a hearty supper, for I was as hungry as a hawk, while Mr. Dance was
+further complimented and at last dismissed.
+
+“And now, squire,” said the doctor.
+
+“And now, Livesey,” said the squire in the same breath.
+
+“One at a time, one at a time,” laughed Dr. Livesey. “You have heard of
+this Flint, I suppose?”
+
+“Heard of him!” cried the squire. “Heard of him, you say! He was the
+bloodthirstiest buccaneer that sailed. Blackbeard was a child to Flint.
+The Spaniards were so prodigiously afraid of him that, I tell you, sir,
+I was sometimes proud he was an Englishman. I’ve seen his top-sails with
+these eyes, off Trinidad, and the cowardly son of a rum-puncheon that I
+sailed with put back--put back, sir, into Port of Spain.”
+
+“Well, I’ve heard of him myself, in England,” said the doctor. “But the
+point is, had he money?”
+
+“Money!” cried the squire. “Have you heard the story? What were these
+villains after but money? What do they care for but money? For what
+would they risk their rascal carcasses but money?”
+
+“That we shall soon know,” replied the doctor. “But you are so
+confoundedly hot-headed and exclamatory that I cannot get a word in.
+What I want to know is this: Supposing that I have here in my pocket
+some clue to where Flint buried his treasure, will that treasure amount
+to much?”
+
+“Amount, sir!” cried the squire. “It will amount to this: If we have the
+clue you talk about, I fit out a ship in Bristol dock, and take you and
+Hawkins here along, and I’ll have that treasure if I search a year.”
+
+“Very well,” said the doctor. “Now, then, if Jim is agreeable, we’ll
+open the packet”; and he laid it before him on the table.
+
+The bundle was sewn together, and the doctor had to get out his
+instrument case and cut the stitches with his medical scissors. It
+contained two things--a book and a sealed paper.
+
+“First of all we’ll try the book,” observed the doctor.
+
+The squire and I were both peering over his shoulder as he opened
+it, for Dr. Livesey had kindly motioned me to come round from the
+side-table, where I had been eating, to enjoy the sport of the search.
+On the first page there were only some scraps of writing, such as a man
+with a pen in his hand might make for idleness or practice. One was the
+same as the tattoo mark, “Billy Bones his fancy”; then there was “Mr. W.
+Bones, mate,” “No more rum,” “Off Palm Key he got itt,” and some other
+snatches, mostly single words and unintelligible. I could not help
+wondering who it was that had “got itt,” and what “itt” was that he got.
+A knife in his back as like as not.
+
+“Not much instruction there,” said Dr. Livesey as he passed on.
+
+The next ten or twelve pages were filled with a curious series of
+entries. There was a date at one end of the line and at the other a
+sum of money, as in common account-books, but instead of explanatory
+writing, only a varying number of crosses between the two. On the 12th
+of June, 1745, for instance, a sum of seventy pounds had plainly become
+due to someone, and there was nothing but six crosses to explain the
+cause. In a few cases, to be sure, the name of a place would be added,
+as “Offe Caraccas,” or a mere entry of latitude and longitude, as “62o
+17′ 20″, 19o 2′ 40″.”
+
+The record lasted over nearly twenty years, the amount of the separate
+entries growing larger as time went on, and at the end a grand total
+had been made out after five or six wrong additions, and these words
+appended, “Bones, his pile.”
+
+“I can’t make head or tail of this,” said Dr. Livesey.
+
+“The thing is as clear as noonday,” cried the squire. “This is the
+black-hearted hound’s account-book. These crosses stand for the names of
+ships or towns that they sank or plundered. The sums are the scoundrel’s
+share, and where he feared an ambiguity, you see he added something
+clearer. ‘Offe Caraccas,’ now; you see, here was some unhappy vessel
+boarded off that coast. God help the poor souls that manned her--coral
+long ago.”
+
+“Right!” said the doctor. “See what it is to be a traveller. Right! And
+the amounts increase, you see, as he rose in rank.”
+
+There was little else in the volume but a few bearings of places noted
+in the blank leaves towards the end and a table for reducing French,
+English, and Spanish moneys to a common value.
+
+“Thrifty man!” cried the doctor. “He wasn’t the one to be cheated.”
+
+“And now,” said the squire, “for the other.”
+
+The paper had been sealed in several places with a thimble by way of
+seal; the very thimble, perhaps, that I had found in the captain’s
+pocket. The doctor opened the seals with great care, and there fell out
+the map of an island, with latitude and longitude, soundings, names of
+hills and bays and inlets, and every particular that would be needed
+to bring a ship to a safe anchorage upon its shores. It was about nine
+miles long and five across, shaped, you might say, like a fat dragon
+standing up, and had two fine land-locked harbours, and a hill in the
+centre part marked “The Spy-glass.” There were several additions of a
+later date, but above all, three crosses of red ink--two on the north
+part of the island, one in the southwest--and beside this last, in
+the same red ink, and in a small, neat hand, very different from the
+captain’s tottery characters, these words: “Bulk of treasure here.”
+
+Over on the back the same hand had written this further information:
+
+     Tall tree, Spy-glass shoulder, bearing a point to
+     the N. of N.N.E.
+
+     Skeleton Island E.S.E. and by E.
+
+     Ten feet.
+
+     The bar silver is in the north cache; you can find
+     it by the trend of the east hummock, ten fathoms
+     south of the black crag with the face on it.
+
+     The arms are easy found, in the sand-hill, N.
+     point of north inlet cape, bearing E. and a
+     quarter N.
+     J.F.
+
+That was all; but brief as it was, and to me incomprehensible, it filled
+the squire and Dr. Livesey with delight.
+
+“Livesey,” said the squire, “you will give up this wretched practice
+at once. Tomorrow I start for Bristol. In three weeks’ time--three
+weeks!--two weeks--ten days--we’ll have the best ship, sir, and the
+choicest crew in England. Hawkins shall come as cabin-boy. You’ll make
+a famous cabin-boy, Hawkins. You, Livesey, are ship’s doctor; I am
+admiral. We’ll take Redruth, Joyce, and Hunter. We’ll have favourable
+winds, a quick passage, and not the least difficulty in finding the
+spot, and money to eat, to roll in, to play duck and drake with ever
+after.”
+
+“Trelawney,” said the doctor, “I’ll go with you; and I’ll go bail for
+it, so will Jim,END OF EXCERPT
+
+Return exactly one JSON object. All values must be short English strings. Keys: document_id, excerpt_1_code, excerpt_2_code, excerpt_3_code, answer_1, answer_2, answer_3, answer_4, answer_5, answer_6. Copy the document ID and each excerpt code from this document. No explanations or additional turns.
+answer_1 (excerpt 1): What is the name of the inn kept by the narrator's father?
+answer_2 (excerpt 1): What kind of chest follows the old seaman to the inn?
+answer_3 (excerpt 2): What alcoholic drink does the captain plead with Jim to bring?
+answer_4 (excerpt 2): What gold coin does he offer Jim for a noggin?
+answer_5 (excerpt 3): Who opens the door when Jim knocks at Dr. Livesey's house?
+answer_6 (excerpt 3): In which room does the servant show the visitors the squire and doctor?<|im_end|>
+<|im_start|>assistant
+<think>
+
+</think>
+
